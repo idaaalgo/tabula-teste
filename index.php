@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
         <title>Cadastro</title>
     </head>
     <body>
@@ -53,6 +53,6 @@
             </div>
         </div>
 
-        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>
