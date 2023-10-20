@@ -45,7 +45,7 @@
                                 include ("editar-usuario.php");
                                 break;
                             default:
-                                echo "<h1>Bem vindos!</h1>";
+                                echo "<h1>Bem vindo!</h1>";
                                 break;
                         }
                     ?>

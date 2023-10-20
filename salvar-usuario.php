@@ -10,7 +10,7 @@
             $sql = "INSERT INTO usuarios (nome, username, email, telefone, senha, endereco) VALUES ('$nome', '$username', '$email', '$telefone', '$senha', '$endereco')";
             $res = $conn->query($sql);
             if($res == true) {
-                echo "<script>alert('Editado com sucesso');</script>";
+                echo "<script>alert('Cadastrado com sucesso');</script>";
                 echo "<script>location.href='?page=listar';</script>";
             } else {
                 echo "<script>alert('Não foi possível cadastrar');</script>";
